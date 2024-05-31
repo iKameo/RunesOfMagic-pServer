@@ -91,7 +91,7 @@ _all typed into the GM chat: /gm_
 
 ---
 
-## Player intercation
+## Player interaction
 _all typed into the GM chat: /gm_  
 
 **? gotoplayername Player**  
