@@ -136,22 +136,22 @@ _all typed into the GM chat: /gm_
 **? bcast <SampleText>**  
 (_send serverwide message in the center of the screen_)
 
-**? resetColdown**
+**? resetColdown**  
 (_this is not a typo!! - resets all of your cooldowns_)
 
-**? spellMagic <targetId> <skillId>**
+**? spellMagic <targetId> <skillId>**  
 (_cast skillID to targetID_)
 
-**? createPet** <ID> [Level] [PetType(???)]
+**? createPet <ID> [Level] [PetType(???)]**  
 (_create a oet with given values_)
 
-**? changeJob**
+**? changeJob**  
 (_shows standard class change dialog._)
 
-**? setTitleStr** <TitleString>
+**? setTitleStr <TitleString>**  
 (_ - sets your title_)
 
-**? randTransport**
+**? randTransport**  
 (_ transports you to a random place in current location_)
 
 ---
