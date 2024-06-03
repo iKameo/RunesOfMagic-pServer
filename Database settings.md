@@ -1,3 +1,23 @@
+### Enable GM rights
+
+Open the **ROM_World** database and navigate to the **dbo.RoleData_Account**. And set the _ManageLv_ to **13**.
+
+| Account_ID  | AccountMoney  | BonusMoney  |  ManageLv | Password  |
+|---|---|---|---|---|
+|  ikameo | 1000  | 0  | **13**  | _MD5 Hash_  |
+
+---
+
+### GM Permission
+
+Open the **ROM_World** database and navigate to the **dbo.RoleData**. And set the _isGM_ to **true**.
+
+| IsDelete  | IsGM  | IsEnterWorld  |  CharField | DBID  | AccountID  | 
+|---|---|---|---|---|---|
+|  False | True  | True/False  | 0  | _any number_  | iKameo  | 
+
+---
+
 ### Database rate settings
 
 Open the **ROM_World** database and navigate to the **dbo.WorldConfigTable**. Rightclick and select "Edit top 200 rows".
@@ -18,10 +38,3 @@ Change the **Value** - default is _100_
 
 ---
 
-### GM Permission
-
-Open the **ROM_World** database and navigate to the **dbo.RoleData**. And set the _isGM_ to **true**.
-
-| IsDelete  | IsGM  | IsEnterWorld  |  CharField | DBID  | AccountID  | 
-|---|---|---|---|---|---|
-|  False | True  | True/False  | 0  | _any number_  | iKameo  | 
