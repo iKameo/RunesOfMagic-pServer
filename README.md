@@ -1,6 +1,9 @@
 # Runes of Magic-pServer-Commands
 A collection of usefull commands for a Runes of Magic Admin/GM
 
+All credit belong to the awesome guys over at https://forum.ragezone.com/community/runes-of-magic.883/  
+I just collected everything and wrote it together in this repository.
+
 ---
 
 ### Database Queries
