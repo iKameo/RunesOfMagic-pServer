@@ -7,6 +7,9 @@ Based off "Chronicles of Arcadia" Shops..
 Created By : Janebug
 Speacial thanks to : Mageoski, andelwol26, Beerpyrs and Lifefire. For all there help, Breaking down the tables, and columns
 
+Edited By: iKameo
+Added all wood/herbs/mining ressources to the end of the file
+
 world 30 to 1, SortNumber, NeedMemberID, SellType, SellType1, SellType2, Sell_BeginTime, Sell_EndTime, Sell_Count, Sell_Max_Count, Sell_Cost, Sell_Cost_Bonus,
  Sell_Cost_Free, Sell_Cost_Get_Bonus, Icon, Item_DisplayerObjID, Item_Name, Item_Note, Item_OrgObjID1 - 8, Item_Count1 to 8, Gamble_Count, Gamele_Rate1 to 8, (not 10000 = 100%), EffectDay
 
