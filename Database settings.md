@@ -1,3 +1,5 @@
+### Database rate settings
+
 Open the **ROM_World** database and navigate to the **dbo.WorldConfigTable**. Rightclick and select "Edit top 200 rows".
 There you´ll find the TP, EXP, QuestTP, Money and many more.  
 
@@ -13,3 +15,13 @@ Change the **Value** - default is _100_
 | 5  | -1  | 1900-01-01 00:00:00  | 2030-01-01 00:00:00  | QuestTpRate  | **1000**  |   | Talent points percentage (100 = Exp x1) |
 | 6  | -1  | 1900-01-01 00:00:00  | 2030-01-01 00:00:00  | MoneyRate  | **1000**  |   | Money percentage (100 = Exp x1) |
 | 7  | -1  | 1900-01-01 00:00:00  | 2030-01-01 00:00:00  | QuestMoneyRate  | **1000**  |   | Money percentage (100 = Exp x1) |
+
+---
+
+### GM Permission
+
+Open the **ROM_World** database and navigate to the **dbo.RoleData**. And set the _isGM_ to **true**.
+
+| IsDelete  | IsGM  | IsEnterWorld  |  CharField | DBID  | AccountID  | 
+|---|---|---|---|---|---|
+|  False | True  | True/False  | 0  | _any number_  | iKameo  | 
